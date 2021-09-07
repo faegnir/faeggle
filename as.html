@@ -4,11 +4,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-          
-
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+          </style>
     </head>
     <body style="background-color: #212121; color: white;">
         <ul class="nav justify-content-end" style="padding-top: 10px;padding-right: 22px;">
+          <li class="nav-item">
+            <span style="margin-left: -1225px;"id="au">faeggle</span>
+          </li>
             <li class="nav-item">
               <a class="nav-link active" href="img.html">Images</a>
             </li>
@@ -19,6 +23,22 @@
                 <a id="au" class="nav-link" href="index.html">f</a>
               </li>
           </ul>
-          TODO
+          
+          <div><label id ="lab">Advanced Search</label></div>
+          <hr style="border-color: lightgray;">
+          <div id="agt">
+          <form id="bab" action="https://www.google.com/search" name="f">
+          <div style="font-size: larger;">Find pages with...</div>
+          <label class="bod">Type the important words:<span class="sp">    Obi-wan kenobi</span> </label>
+          <div class="ayt"><label class="bok">all these words</label><input style="margin-left:80px;" class="inp" name="as_q" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" aria-autofocus="false" role="combobox" spellcheck="false"></div>
+          <label class="bod">Put exact words in quotes:<span class="sp">    Lando Calrissian</span> </label>
+          <div class="ayt"><label class="bok">this exact word or phrase</label><input  class="inp" name="as_epq" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" aria-autofocus="false" role="combobox" spellcheck="false"></div>
+          <label class="bod">Type <span style="font-family: serif; font-weight: lighter;">OR</span> between all the words you want:<span class="sp">    obi-wan  OR  kenobi </span></label>
+          <div class="ayt"><label class="bok">any of these words</label><input style="margin-left:57px;"  class="inp" name="as_oq" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" aria-autofocus="false" role="combobox" spellcheck="false"></div>
+          <label class="bod">Put a minus sign just before words you don't want:<span class="sp">    -"Han Solo"</span></label>
+          <div class="ayt"><label class="bok">none of these words</label><input style="margin-left:48px;"  class="inp" name="as_eq" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" aria-autofocus="false" role="combobox" spellcheck="false"></div>
+          <div ><input id="sr" type="submit" value="advanced search"></div>
+          </form>
+        </div>
     </body>
 </html>
