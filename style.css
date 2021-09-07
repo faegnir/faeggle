@@ -1,0 +1,47 @@
+form {
+    position:absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -70px 0 0 -267px;
+    }
+
+#ab {position: absolute;
+    font-size: 90px;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -220px 0 0 -140px;}
+#au {
+    padding-top: 3px;
+    padding-right: 5px;
+    font-size:x-large; 
+    font-family: bookman;
+    font-style: oblique; 
+    font-weight:bolder;
+    color: antiquewhite;
+}
+#icon {
+    position: absolute;
+    width: 40px;
+    bottom: 56px;
+}
+#wow {
+  color: white; caret-color: white; background-color: #212121; width: 520px;height:40px;border-radius: 20px;border-color: rgb(131, 131, 131); outline: none;border-width: 1.5px; padding-left: 35px; padding-top: 3px; border-style: solid;
+}
+#ara {
+    width: auto;
+    background-color: #333333;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    margin-left: 106px;
+    color: white;
+    padding:4px 16px 4px 16px;
+    font-weight:340;
+    
+
+}
