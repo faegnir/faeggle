@@ -1,4 +1,4 @@
-# faeggle.github.io
+# faeggle
 
 Made a front-end for Google Search, Google Image Search, and Google Advanced Search.
 This website has three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
